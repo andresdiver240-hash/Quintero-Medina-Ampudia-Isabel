@@ -1,0 +1,70 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Zapatillas</title>
+    <style>
+        body 
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        
+
+        header 
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header img {
+            width: 100px;
+            vertical-align: middle;
+        }
+
+        h1 {
+            display: inline-block;
+            margin-left: 10px;
+            font-size: 2rem;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .galeria img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Logo Nike">
+        <h1>Zapatillas Nike</h1>
+    </header>
+
+    <section class="galeria">
+        <img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/af90c6a8-23c2-4901-a02e-2cb69bb89db8/air-jordan-1-high-og.jpg" alt="Nike Air Jordan 1">
+        <img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/02c8163e-2321-44cf-a3b3-18b8eea5b84c/air-max-270.jpg" alt="Nike Air Max 270">
+        <img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/9f9a0328-2c6b-49d2-b7ad-bcb8e2466713/nike-dunk-low.jpg" alt="Nike Dunk Low">
+        <img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/4b8f94b8-4adf-4f79-9b0b-9b8bb2e2c2b8/nike-air-force-1.jpg" alt="Nike Air Force 1">
+        <img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/1f94ce02-4d4c-4603-bf0a-94e6c6e3e5b3/nike-blazer-mid-77.jpg" alt="Nike Blazer Mid 77">
+        <img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/99b4c6f7-efb3-42a1-8f56-6df44c61ec56/nike-react-vision.jpg" alt="Nike React Vision"

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike | Zapatillas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #111;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+        }
+
+        header img {
+            width: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ccc;
+        }
+
+        /* Banner principal */
+        .hero {
+            background-image: url('https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/6b7c4cb0-cd57-469f-a94c-2519f1a7b32e/nike-just-do-it.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        /* Galería de imágenes */
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .galeria img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Nike Logo">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Hombres</a></li>
+                <li><a href="#">Mujeres</a></li>
+                <li><a href="#">Nuevos lanzamientos</a></li>
+                <li><a href="#">Ofertas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Just Do It</h1>
+    </section>
+
+    <section class="galeria">
+        <img src="https://www.sportline.com.co/media/catalog/product/f/b/fb1362-002_phsrh000-1000.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:&format=jpeg" alt="Nike Full Force Low">
+        <img src="https://www.sportline.com.co/media/catalog/product/f/v/fv5948-101_phsrh000-1000.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:&format=jpeg" alt="Nike Air Force 1">
+        <img src="https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/359c0312-783b-427f-b05d-432485d6bfb5/W+AIR+MAX+PLUS.png" alt="Nike Air Max Plus">
+        <img src="https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/02d45724-af8d-48ce-9b85-922ed0571d0a/SHOX+TL+%28GS%29.png" alt="Nike Shox TL">
+        <img src="https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/51b68abf-3145-4a4a-bec4-0c0372c30870/AIR+MAX+DN+ROAM.png" alt="Nike Air Max Dn Roam">
+        <img src="https://nikeco.vtexassets.com/arquivos/ids/910008/IF2621-007_A.jpg?v=638954464173600000" alt="Nike Air Max Fire">
+    </section>
+
+    <footer>
+        <p>© 2025 Nike, Inc. Todos los derechos reservados.</p>
+        <p>Hecho con pasión por los fans de Nike 👟</p>
+    </footer>
+</body>
+</html>
